@@ -15,8 +15,8 @@ class GreetingAgent(BaseAIAgent):
 if __name__ == '__main__':
     base_agent = BaseAIAgent()
     greeting_agent = GreetingAgent()
-    
+    hello_agent = HelloAgent()
 
     print("BaseAgent:", base_agent.respond())
     print("GreetingAgent:", greeting_agent.respond())
-    
+    print("HelloAgent:", hello_agent.respond())
